@@ -1,5 +1,5 @@
-#bin/tictactoe
-#require 'pry'
-#require_relative '../lib/tic_tac_toe.rb'
+#!/usr/bin/env ruby
+require 'pry'	
+require_relative '../lib/tic_tac_toe.rb'
 
-Tic_Tac_Toe.new.play 
+TicTacToe.new.play
